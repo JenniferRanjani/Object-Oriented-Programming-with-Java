@@ -4,7 +4,7 @@ public class MouseListenerEx extends Frame implements MouseListener{
     String msg ="Welcome";  
     Color c = Color.red;
     
-        test()
+        MouseListenerEx()
         {  
     	 	  addMouseListener(this);  
         	setSize(300,300);  
