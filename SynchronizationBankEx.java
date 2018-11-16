@@ -2,7 +2,7 @@ class Account
 {
 	float amount;
 	
-	void withdraw(float amt) {
+	synchronized void withdraw(float amt) {
 		try
         { 
 			System.out.println("Details for Thread"+Thread.currentThread());
@@ -33,6 +33,7 @@ class AccountThread extends Thread
 	}
 	
 	public void run() {
+// Uncomment the following lines if we dont have access to the Account class and withdraw method can not be synchronized.
 //		synchronized(A)
 //		{
 			A.withdraw(amt);
