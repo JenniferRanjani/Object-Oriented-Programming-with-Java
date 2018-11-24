@@ -1,12 +1,6 @@
 class Test1 
 { 
     int x, y; 
-} 
-  
-class Test2 implements Cloneable 
-{ class Test1 
-{ 
-    int x, y; 
     
     Test1()
     {
