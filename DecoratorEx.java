@@ -1,4 +1,4 @@
-//Code courtesy https://www.journaldev.com/1540/decorator-design-pattern-in-java-example
+//Source: https://www.journaldev.com/1540/decorator-design-pattern-in-java-example
 
 //For simplicity public modifier is removed from all the interfaces and classes.
 
