@@ -1,4 +1,4 @@
-//Code Courtesy: https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+//Source: https://www.tutorialspoint.com/design_pattern/command_pattern.htm
 
 import java.util.*;
 
